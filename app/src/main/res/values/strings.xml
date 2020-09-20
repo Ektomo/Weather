@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="options">Options</string>
+    <string name="map">Map</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="weather">Weather</string>
+    <string name="insert_name_of_city">Insert name of city</string>
+    <string name="show">Show</string>
+    <string name="search_on_map">Search on Map</string>
+    <string name="drawer_header">Drawer header</string>
 </resources>

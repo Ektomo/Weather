@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".screens.mainscreen.MainFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/field_for_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/insert_name_of_city"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textSize="20sp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/show"
+            style="@style/Widget.Weather.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/show"
+            android:textAllCaps="false"
+            android:textColor="@color/WhiteText"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/field_for_text" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/search_on_map"
+            style="@style/Widget.Weather.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/search_on_map"
+            android:textAllCaps="false"
+            android:textColor="@color/WhiteText"
+            android:textSize="15sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/show"
+            app:layout_constraintStart_toEndOf="@id/show" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
