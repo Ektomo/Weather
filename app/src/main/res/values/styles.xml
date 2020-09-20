@@ -2,14 +2,14 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimaryDark2</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="Widget.Weather.Button" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">?android:attr/textColor</item>
-        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="backgroundTint">@color/colorPrimaryDark2</item>
         <item name="android:stateListAnimator" tools:ignore="NewApi">
             @animator/weather_button_anim
         </item>

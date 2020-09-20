@@ -10,4 +10,7 @@
     <string name="show">Show</string>
     <string name="search_on_map">Search on Map</string>
     <string name="drawer_header">Drawer header</string>
+    <string name="moscow" >Moscow</string>
+    <string name="_7">7°</string>
+    <string name="settings">Options</string>
 </resources>
